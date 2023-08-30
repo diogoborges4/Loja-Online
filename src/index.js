@@ -4,7 +4,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 import Home from "./pages/Home/Home.jsx";
-import Products from "./pages/Products/Products .jsx";
 import Men from "./pages/Products/Men.jsx";
 import ProductItem from "./pages/ProductItem/ProductItem.jsx";
 import Woman from "./pages/Products/Woman.jsx";
@@ -23,7 +22,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route element={<App />}>
             <Route path="/" element={<Shop />} />
             <Route path="/shop" element={<Shop />} />
-            <Route path="/products" element={<Products />} />
             <Route path="/menProducts" element={<Men />} />
             <Route path="/product/:id" element={<ProductItem />} />
             <Route path="/womanProducts" element={<Woman />} />
