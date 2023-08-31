@@ -13,7 +13,7 @@ export const Logo = () => {
         <img
           className="group"
           alt="Group"
-          src="/src/static/img/Design-sem-nome.png"
+          src="/static/img/Design-sem-nome.png"
         />
       </div>
     </div>
